@@ -1,0 +1,4 @@
+colores = {rojo,verde,azul};
+enlaces = 1;
+grafo = [{0,1}];
+numero_nodos = 2;
