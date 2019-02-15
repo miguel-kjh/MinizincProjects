@@ -1,4 +1,4 @@
-colores = {rojo,verde,azul};
-enlaces = 1;
-grafo = [{0,1}];
-numero_nodos = 2;
+colores = 4;
+enlaces = 5;
+grafo = [{1,2},{2,0},{2,3},{2,4},{0,4}];
+numero_nodos = 5;
