@@ -28,7 +28,8 @@ def solve_it(input_data):
     s = subprocess.check_output(['minizinc', 'color_grafo.mzn', "-D", parametros])
     medida_tiempo = time.time() - st
     print("Tiempo " + str(medida_tiempo) + " segundos")
-    return s.replace("-", "").replace("=", "").replace("\n", "")
+    import re
+    return re.sub("[b'\-=n]","",str(s)).replace("\\","")
 
 
 if __name__ == '__main__':
