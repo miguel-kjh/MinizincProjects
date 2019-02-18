@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="278">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="56" />
               <folding>
                 <element signature="e#21#38#0" expanded="true" />
               </folding>
@@ -55,8 +55,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="142" />
-    <option name="y" value="66" />
+    <option name="x" value="124" />
+    <option name="y" value="365" />
     <option name="width" value="950" />
     <option name="height" value="789" />
   </component>
@@ -159,7 +159,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="66" width="950" height="789" extended-state="0" />
+    <frame x="124" y="365" width="950" height="789" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24986821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -219,8 +219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="278">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="56" />
           <folding>
             <element signature="e#21#38#0" expanded="true" />
           </folding>

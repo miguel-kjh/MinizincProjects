@@ -2,7 +2,7 @@
 import subprocess
 import time
 
-colores = "colores = 10; "
+colores = "colores = 100; "
 def solve_it(input_data):
     # Modify this code to run your optimization algorithm
 
