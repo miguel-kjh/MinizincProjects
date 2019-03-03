@@ -1,0 +1,11 @@
+include "globals.mzn";
+int: n = 3;
+int:m=1;
+array[1..n] of var 1..n:x;
+constraint forall(i in 1..n)(x[i] >= 0);
+%constraint forall(i in 1..5)(x[i] mod 2 == 0);
+%constraint circuit(x);
+%constraint forall(i in 1..n-1)(sum(j in i+1..n)(x[i] < x[j]) = m);
+constraint forall(i in 1..n-1)(sum(j in i+1..i+m)(x[i] < x[j]) = m);
+constraint alldifferent(x);
+solve satisfy;
